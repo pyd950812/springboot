@@ -2,11 +2,11 @@
 <html>
 <head>
 <title>Home</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../static/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary JavaScript plugins) -->
-<script src="js/bootstrap.js"></script>
+<script src="../static/js/bootstrap.js"></script>
 <!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="../static/css/style.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
-<script src="js/jquery.min.js"></script>
+<script src="../static/js/jquery.min.js"></script>
 
 </head>
 <body>
@@ -83,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- banner -->
 	 <!-- Slider-starts-Here -->
-	 <script src="js/responsiveslides.min.js"></script>
+	 <script src="../static/js/responsiveslides.min.js"></script>
 	 <script>
 		$(function () {
 		  $("#slider").responsiveSlides({
@@ -140,28 +140,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					 <div class="game-grid">
 						 <h4>Action Games</h4>
 						 <p>Nulla elementum nunc tempus.</p>
-						 <img src="/../static/images/t1.jpg" class="img-responsive" alt=""/>
+						 <img src="../static/images/t1.jpg" class="img-responsive" alt=""/>
 					 </div>	
 				 </li>
 				 <li>
 					 <div class="game-grid">
 						 <h4>Racing Games</h4>
 						 <p>Nulla elementum nunc tempus.</p>
-						 <img src="images/t3.jpg" class="img-responsive" alt=""/>
+						 <img src="../static/images/t3.jpg" class="img-responsive" alt=""/>
 					 </div>
 				 </li>
 				 <li>
 					 <div class="game-grid">
 						 <h4>3D Games</h4>
 						 <p>Nulla elementum nunc tempus.</p>
-						 <img src="images/t4.jpg" class="img-responsive" alt=""/>
+						 <img src="../static/images/t4.jpg" class="img-responsive" alt=""/>
 					 </div>
 				 </li>
 				 <li>
 					 <div class="game-grid">
 						 <h4>Arcade Games</h4>
 						 <p>Nulla elementum nunc tempus.</p>
-						 <img src="images/t2.jpg" class="img-responsive" alt=""/>
+						 <img src="../static/images/t2.jpg" class="img-responsive" alt=""/>
 					 </div>	
 				 </li>				 				 	
 			 </ul>
@@ -192,7 +192,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 			});
 			</script>
-			<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+			<script type="text/javascript" src="../static/js/jquery.flexisel.js"></script>
 		 </div>
 	 </div>
 </div>
@@ -217,7 +217,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				   </div>
 				    <div class="sub-trailer">
 				       <div class="col-md-4 sub-img">
-							<img src="../images/v1.jpg" alt="img07"/>
+							<img src="../static/images/v1.jpg" alt="img07"/>
 					   </div>
 					   <div class="col-md-8 sub-text">
 					   		 <a href="#"> Spiderman 2 Full Version PC Game</a>
@@ -227,7 +227,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				   </div>
 				    <div class="sub-trailer">
 				       <div class="col-md-4 sub-img">
-							<img src="images/v3.jpg" alt="img07"/>
+							<img src="../static/images/v3.jpg" alt="img07"/>
 					   </div>
 					   <div class="col-md-8 sub-text">
 					   		 <a href="#">Sega's: Jet Set for Andriod Play Store 4 Reviews</a>
@@ -268,7 +268,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 <a class="hvr-bounce-to-top" href="reviews.jsp">Read More</a>
 			 </div>
 			 <div class="col-md-5 x-box-right">
-				 <img src="images/xbox.jpg" class="img-responsive" alt=""/>
+				 <img src="../static/images/xbox.jpg" class="img-responsive" alt=""/>
 			 </div>
 			 <div class="clearfix"></div>
 		 </div>

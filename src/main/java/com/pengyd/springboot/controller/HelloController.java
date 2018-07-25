@@ -60,10 +60,74 @@ public class HelloController {
     }
 
 
+    /**
+     * 跳转index页面
+     * @param model
+     * @return
+     */
     @RequestMapping("index")
     public String index(Model model) {
         System.out.println("index");
         return "index";
+    }
+
+    /**
+     * 跳转about页面
+     * @param model
+     * @return
+     */
+    @RequestMapping("about")
+    public String about(Model model) {
+        System.out.println("about");
+        return "about";
+    }
+
+
+    /**
+     * 跳转reviews页面
+     * @param model
+     * @return
+     */
+    @RequestMapping("reviews")
+    public String reviews(Model model) {
+        System.out.println("reviews");
+        return "reviews";
+    }
+
+
+    /**
+     * 跳转typo页面
+     * @param model
+     * @return
+     */
+    @RequestMapping("typo")
+    public String typo(Model model) {
+        System.out.println("typo");
+        return "typo";
+    }
+
+
+    /**
+     * 跳转gallery页面
+     * @param model
+     * @return
+     */
+    @RequestMapping("gallery")
+    public String gallery(Model model) {
+        System.out.println("gallery");
+        return "gallery";
+    }
+
+
+    /**
+     * 跳转contact页面
+     * @param model
+     * @return
+     */
+    @RequestMapping("contact")
+    public String contact(Model model) {
+        System.out.println("contact");
+        return "contact";
     }
 
 
