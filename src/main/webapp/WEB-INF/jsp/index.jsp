@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>This is a Resource Website</title>
@@ -207,9 +208,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="latest-top">
             <div class="col-md-5 trailer-text">
+                <c:forEach items="${list}" var="keyword" varStatus="id">
                 <div class="sub-trailer">
                     <div class="col-md-4 sub-img">
-                        <img src="../static/images/v2.jpg" alt="img07"/>
+                      <%--  <img src="../static/images/v1.jpg" alt="img07"/>--%>
+                        <img src="${keyword}" alt="img07"/>
                     </div>
                     <div class="col-md-8 sub-text">
                         <a href="#">Killzone: Shadow Fall for PlayStation 4 Reviews</a>
@@ -217,7 +220,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="clearfix"> </div>
                 </div>
-                <div class="sub-trailer">
+                <%--<div class="sub-trailer">
                     <div class="col-md-4 sub-img">
                         <img src="../static/images/v1.jpg" alt="img07"/>
                     </div>
@@ -236,7 +239,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <p>Lorem ipsum dolor sit amet, consectetur adipi…</p>
                     </div>
                     <div class="clearfix"> </div>
-                </div>
+                </div>--%>
+
+                </c:forEach>
             </div>
             <div class="col-md-7 trailer">
                 <iframe src="https://www.youtube.com/embed/V5-DyoVlNOg?list=PLiVunv1pnIs2c0ORVqY60K3n8XMO9CoGp" frameborder="0" allowfullscreen></iframe>
@@ -256,9 +261,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="latest-top">
             <div class="col-md-5 trailer-text">
-                <div class="sub-trailer">
+               <%-- <div class="sub-trailer">
                     <div class="col-md-4 sub-img">
-                        <img src="../static/images/v2.jpg" alt="img07"/>
+                        <img src="../static/images/films/v2.jpg" alt="img07"/>
                     </div>
                     <div class="col-md-8 sub-text">
                         <a href="#">Killzone: Shadow Fall for PlayStation 4 Reviews</a>
@@ -275,7 +280,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <p>Lorem ipsum dolor sit amet, consectetur adipi…</p>
                     </div>
                     <div class="clearfix"> </div>
-                </div>
+                </div>--%>
+                <c:forEach items="${list}" var="game">
                 <div class="sub-trailer">
                     <div class="col-md-4 sub-img">
                         <img src="../static/images/v3.jpg" alt="img07"/>
@@ -286,6 +292,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="clearfix"> </div>
                 </div>
+                </c:forEach>
+
             </div>
             <div class="col-md-7 trailer">
                 <iframe src="https://www.youtube.com/embed/V5-DyoVlNOg?list=PLiVunv1pnIs2c0ORVqY60K3n8XMO9CoGp" frameborder="0" allowfullscreen></iframe>
@@ -361,7 +369,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <li><a href="#">开发</a></li>
                     <li><a href="#">作图</a></li>
                     <li><a href="#">VFX视觉</a></li>
-                    <li><a href="#">视频编辑</a></li>
+                    <li><a href="#">视频剪辑</a></li>
                     <li><a href="#">其他</a></li>
                 </ul>
             </div>

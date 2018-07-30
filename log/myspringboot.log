@@ -245,3 +245,58 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-07-30 11:17:10.621  INFO 26620 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2018-07-30 11:17:10.652  INFO 26620 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
 2018-07-30 11:17:10.682  INFO 26620 --- [http-nio-8081-exec-6] c.p.s.controller.HelloController         : 进入hello方法
+2018-07-30 14:47:05.481  INFO 26888 --- [restartedMain] c.p.springboot.SpringbootApplication     : Starting SpringbootApplication on LAPTOP-P3F8REP7 with PID 26888 (started by kunku in C:\idea workspace\springboot)
+2018-07-30 14:47:05.481  INFO 26888 --- [restartedMain] c.p.springboot.SpringbootApplication     : The following profiles are active: prod
+2018-07-30 14:47:05.575  INFO 26888 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7a3122b2: startup date [Mon Jul 30 14:47:05 CST 2018]; root of context hierarchy
+2018-07-30 14:47:07.922  INFO 26888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-07-30 14:47:07.948  INFO 26888 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-30 14:47:07.949  INFO 26888 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-30 14:47:07.954  INFO 26888 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-30 14:47:07.968  INFO 26888 --- [restartedMain] c.p.springboot.SpringbootApplication     : Started SpringbootApplication in 3.048 seconds (JVM running for 4.196)
+2018-07-30 14:47:07.975  INFO 26888 --- [Thread-15] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7a3122b2: startup date [Mon Jul 30 14:47:05 CST 2018]; root of context hierarchy
+2018-07-30 14:47:07.980  INFO 26888 --- [Thread-15] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-30 14:47:07.981  INFO 26888 --- [Thread-15] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-07-30 14:47:28.130  INFO 13708 --- [restartedMain] c.p.springboot.SpringbootApplication     : Starting SpringbootApplication on LAPTOP-P3F8REP7 with PID 13708 (started by kunku in C:\idea workspace\springboot)
+2018-07-30 14:47:28.132  INFO 13708 --- [restartedMain] c.p.springboot.SpringbootApplication     : The following profiles are active: prod
+2018-07-30 14:47:28.275  INFO 13708 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5a1aa35f: startup date [Mon Jul 30 14:47:28 CST 2018]; root of context hierarchy
+2018-07-30 14:47:30.438  INFO 13708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-07-30 14:47:30.453  INFO 13708 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-30 14:47:30.453  INFO 13708 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-30 14:47:30.469  INFO 13708 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-30 14:47:30.469  INFO 13708 --- [restartedMain] c.p.springboot.SpringbootApplication     : Started SpringbootApplication in 2.913 seconds (JVM running for 4.06)
+2018-07-30 14:47:30.485  INFO 13708 --- [Thread-14] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5a1aa35f: startup date [Mon Jul 30 14:47:28 CST 2018]; root of context hierarchy
+2018-07-30 14:47:30.485  INFO 13708 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-30 14:47:30.485  INFO 13708 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-07-30 14:50:14.469  INFO 7684 --- [restartedMain] c.p.springboot.SpringbootApplication     : Starting SpringbootApplication on LAPTOP-P3F8REP7 with PID 7684 (started by kunku in C:\idea workspace\springboot)
+2018-07-30 14:50:14.474  INFO 7684 --- [restartedMain] c.p.springboot.SpringbootApplication     : The following profiles are active: prod
+2018-07-30 14:50:14.559  INFO 7684 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@649d10a5: startup date [Mon Jul 30 14:50:14 CST 2018]; root of context hierarchy
+2018-07-30 14:50:16.601  INFO 7684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-07-30 14:50:16.617  INFO 7684 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-30 14:50:16.617  INFO 7684 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-30 14:50:16.617  INFO 7684 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-30 14:50:16.633  INFO 7684 --- [restartedMain] c.p.springboot.SpringbootApplication     : Started SpringbootApplication in 2.729 seconds (JVM running for 3.849)
+2018-07-30 14:50:16.633  INFO 7684 --- [Thread-14] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@649d10a5: startup date [Mon Jul 30 14:50:14 CST 2018]; root of context hierarchy
+2018-07-30 14:50:16.633  INFO 7684 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-30 14:50:16.633  INFO 7684 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-07-30 14:52:21.243  INFO 13868 --- [restartedMain] c.p.springboot.SpringbootApplication     : Starting SpringbootApplication on LAPTOP-P3F8REP7 with PID 13868 (started by kunku in C:\idea workspace\springboot)
+2018-07-30 14:52:21.258  INFO 13868 --- [restartedMain] c.p.springboot.SpringbootApplication     : The following profiles are active: prod
+2018-07-30 14:52:21.352  INFO 13868 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@26e87d4: startup date [Mon Jul 30 14:52:21 CST 2018]; root of context hierarchy
+2018-07-30 14:52:23.244  INFO 13868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-07-30 14:52:23.260  INFO 13868 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-30 14:52:23.260  INFO 13868 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-30 14:52:23.275  INFO 13868 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-30 14:52:23.275  INFO 13868 --- [restartedMain] c.p.springboot.SpringbootApplication     : Started SpringbootApplication in 2.751 seconds (JVM running for 4.084)
+2018-07-30 14:52:23.291  INFO 13868 --- [Thread-15] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@26e87d4: startup date [Mon Jul 30 14:52:21 CST 2018]; root of context hierarchy
+2018-07-30 14:52:23.291  INFO 13868 --- [Thread-15] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-30 14:52:23.291  INFO 13868 --- [Thread-15] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-07-30 15:01:10.164  INFO 21072 --- [restartedMain] c.p.springboot.SpringbootApplication     : Starting SpringbootApplication on LAPTOP-P3F8REP7 with PID 21072 (started by kunku in C:\idea workspace\springboot)
+2018-07-30 15:01:10.165  INFO 21072 --- [restartedMain] c.p.springboot.SpringbootApplication     : The following profiles are active: prod
+2018-07-30 15:01:10.260  INFO 21072 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b17bcd4: startup date [Mon Jul 30 15:01:10 CST 2018]; root of context hierarchy
+2018-07-30 15:01:12.080  INFO 21072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-07-30 15:01:12.107  INFO 21072 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-30 15:01:12.108  INFO 21072 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-30 15:01:12.112  INFO 21072 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-30 15:01:12.123  INFO 21072 --- [restartedMain] c.p.springboot.SpringbootApplication     : Started SpringbootApplication in 2.567 seconds (JVM running for 4.063)
+2018-07-30 15:01:12.130  INFO 21072 --- [Thread-14] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b17bcd4: startup date [Mon Jul 30 15:01:10 CST 2018]; root of context hierarchy
+2018-07-30 15:01:12.134  INFO 21072 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-30 15:01:12.135  INFO 21072 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans

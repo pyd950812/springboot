@@ -14,7 +14,7 @@ public class Games {
     //游戏简介
     private String gameInformation;
     //游戏大小
-    private int gameSize;
+    private int gameSize;  //单位M
     //百度云链接地址
     private String bdLinkUrl;
     //状态1:可试 0:不可视
@@ -27,6 +27,16 @@ public class Games {
     private Date updateTime;
     //查看次数
     private int checkCount;
+
+    private String picName;
+
+    public String getPicName() {
+        return picName;
+    }
+
+    public void setPicName(String picName) {
+        this.picName = picName;
+    }
 
     public Date getCreateTime() {
         return createTime;
