@@ -12,7 +12,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class EasyDeployWarApplication extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(EasyDeployWarApplication.class);
+        return builder.sources(SpringbootApplication.class);
     }
 
     public static void main(String[] args) {
