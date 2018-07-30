@@ -12,11 +12,13 @@ import org.apache.ibatis.annotations.Select;
  * @function:
  */
 @Mapper
-public interface StudentMapper {
+public interface StudentDao {
 
     @Select("Select * from t_student where name = #{name} ")
     Student findUserByName(@Param("name") String name);
 
     @Insert("insert into t_student(name,password,phone) values(#{name},#{password},#{phone})")
     int insert(@Param("name") String name, @Param("password") String password, @Param("phone") String phone);
+
+    void ttt();
 }

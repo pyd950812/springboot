@@ -4,7 +4,7 @@ package com.pengyd.springboot.controller;
 
 
 
-import com.pengyd.springboot.dao.StudentMapper;
+import com.pengyd.springboot.dao.StudentDao;
 import com.pengyd.springboot.entity.Student;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +13,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Date;
 
@@ -29,7 +28,7 @@ public class HelloController {
     private static Logger logger = LoggerFactory.getLogger(HelloController.class);
 
     @Autowired
-    private StudentMapper studentMapper;
+    private StudentDao studentDao;
 
 
     @Value("${name}")
@@ -55,8 +54,8 @@ public class HelloController {
 //        studentMapper.insert("pyd","123123","111111111");
         logger.info("插入数据成功！");
         model.addAttribute("now", new Date());
-        Student pyd = studentMapper.findUserByName("pyd");
-        System.out.println(pyd.toString());
+//        Student pyd = studentMapper.findUserByName("pyd");
+//        System.out.println(pyd.toString());
         return "22";
     }
 

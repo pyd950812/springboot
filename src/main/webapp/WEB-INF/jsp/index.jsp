@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>This is a Resource Website</title>
+    <link rel="shortcut icon" href="../static/images/header.png" type="image/x-icon">
     <link href="../static/css/bootstrap.css" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary JavaScript plugins) -->
     <script src="../static/js/bootstrap.js"></script>
