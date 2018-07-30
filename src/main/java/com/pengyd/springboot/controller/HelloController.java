@@ -41,6 +41,7 @@ public class HelloController {
 
 
 
+
     @RequestMapping("hello")
     public String hello(Model model,@Value("${profile.test.passwrod}")String qq) {
         model.addAttribute("now", new Date());

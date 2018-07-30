@@ -2,11 +2,11 @@
 <html>
 <head>
 <title>Single</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../static/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary JavaScript plugins) -->
-<script src="js/bootstrap.js"></script>
+<script src="../static/js/bootstrap.js"></script>
 <!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="../static/css/style.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
-<script src="js/jquery.min.js"></script>
+<script src="../static/js/jquery.min.js"></script>
 
 </head>
 <body>
@@ -55,17 +55,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner-info">
 		  <div class="container">
 			  <div class="logo">
-					 <h1><a href="index.jsp">GAME BOX</a></h1>
+					 <h1><a href="index">GAME BOX</a></h1>
 			  </div>
 			 <div class="top-menu">
 				 <span class="menu"></span>
 				  <ul class="nav1">
-						 <li><a href="index.jsp">Home</a></li>
-						 <li><a href="about.jsp">About</a></li>
-						 <li class="active"><a href="reviews.jsp">Reviews</a></li>
-						 <li><a href="typo.jsp">News</a></li>
-						 <li><a href="gallery.jsp">Gallery</a></li>
-						 <li><a href="contact.jsp">Mail</a></li>
+						 <li><a href="index">Home</a></li>
+						 <li><a href="about">About</a></li>
+						 <li class="active"><a href="reviews">Reviews</a></li>
+						 <li><a href="typo">News</a></li>
+						 <li><a href="gallery">Gallery</a></li>
+						 <li><a href="contact">Mail</a></li>
 				  </ul>
 			 </div>	
 	<!-- script-for-menu -->
@@ -93,7 +93,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="blog-info">
 					<div class="blog-info-text">
 						<div class="blog-img">
-							<img src="images/img12.jpg" alt=""/>
+							<img src="../static/images/img12.jpg" alt=""/>
 						</div>						
 						<p class="snglp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor If you are going to use a passage of Lorem Ipsum,
 							you need to be sure there isn't anything embarrassing hidden in the middle of text. 
@@ -118,7 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="media response-info">
 							<div class="media-left response-text-left">
 								<a href="#">
-									<img class="media-object" src="images/icon1.png" alt=""/>
+									<img class="media-object" src="../static/images/icon1.png" alt=""/>
 								</a>
 								<h5><a href="#">Admin</a></h5>
 							</div>
@@ -127,12 +127,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								<ul>
 									<li>MARCH 21, 2013</li>
-									<li><a href="single.jsp">Reply</a></li>
+									<li><a href="single">Reply</a></li>
 								</ul>
 								<div class="media response-info">
 									<div class="media-left response-text-left">
 										<a href="#">
-											<img class="media-object" src="images/icon1.png" alt=""/>
+											<img class="media-object" src="../static/images/icon1.png" alt=""/>
 										</a>
 										<h5><a href="#">Admin</a></h5>
 									</div>
@@ -141,7 +141,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											sed do eiusmod tempor incididunt ut labore et.</p>
 										<ul>
 											<li>MARCH 21, 2014</li>
-											<li><a href="single.jsp">Reply</a></li>
+											<li><a href="single">Reply</a></li>
 										</ul>		
 									</div>
 									<div class="clearfix"> </div>
@@ -152,7 +152,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="media response-info">
 							<div class="media-left response-text-left">
 								<a href="#">
-									<img class="media-object" src="images/icon1.png" alt=""/>
+									<img class="media-object" src="../static/images/icon1.png" alt=""/>
 								</a>
 								<h5><a href="#">Admin</a></h5>
 							</div>
@@ -161,7 +161,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								<ul>
 									<li>MARCH 21, 2013</li>
-									<li><a href="single.jsp">Reply</a></li>
+									<li><a href="single">Reply</a></li>
 								</ul>		
 							</div>
 							<div class="clearfix"> </div>
@@ -183,21 +183,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="category blog-ctgry">
 					<h4>Top Games</h4>
 					<div class="list-group">
-						<a href="single.jsp" class="list-group-item">Cras justo odio</a>
-						<a href="single.jsp" class="list-group-item">Dapibus ac facilisis in</a>
-						<a href="single.jsp" class="list-group-item">Morbi leo risus</a>
-						<a href="single.jsp" class="list-group-item">Porta ac consectetur ac</a>
-						<a href="single.jsp" class="list-group-item">Vestibulum at eros</a>
-						<a href="single.jsp" class="list-group-item">Cras justo odio</a>
-						<a href="single.jsp" class="list-group-item">Cras justo odio</a>
-						<a href="single.jsp" class="list-group-item">Cras justo odio</a>
+						<a href="single" class="list-group-item">Cras justo odio</a>
+						<a href="single" class="list-group-item">Dapibus ac facilisis in</a>
+						<a href="single" class="list-group-item">Morbi leo risus</a>
+						<a href="single" class="list-group-item">Porta ac consectetur ac</a>
+						<a href="single" class="list-group-item">Vestibulum at eros</a>
+						<a href="single" class="list-group-item">Cras justo odio</a>
+						<a href="single" class="list-group-item">Cras justo odio</a>
+						<a href="single" class="list-group-item">Cras justo odio</a>
 					</div>
 				</div>	
 				<div class="recent-posts">
 					<h4>Recent posts</h4>
 					<div class="recent-posts-info">
 						<div class="posts-left sngl-img">
-							<a href="single.jsp"> <img src="images/img16.jpg" class="img-responsive zoom-img" alt=""/> </a>
+							<a href="single"> <img src="../static/images/img16.jpg" class="img-responsive zoom-img" alt=""/> </a>
 						</div>
 						<div class="posts-right">
 							<label>March 5, 2015</label>
@@ -209,7 +209,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>	
 					<div class="recent-posts-info">
 						<div class="posts-left sngl-img">
-							<a href="single.jsp"> <img src="images/img17.jpg" class="img-responsive zoom-img" alt=""/></a>
+							<a href="single.jsp"> <img src="../static/images/img17.jpg" class="img-responsive zoom-img" alt=""/></a>
 						</div>
 						<div class="posts-right">
 							<label>March 1, 2015</label>

@@ -2,11 +2,11 @@
 <html>
 <head>
 <title>Reviews</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../static/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary JavaScript plugins) -->
-<script src="js/bootstrap.js"></script>
+<script src="../static/js/bootstrap.js"></script>
 <!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="../static/css/style.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
-<script src="js/jquery.min.js"></script>
+<script src="../static/js/jquery.min.js"></script>
 
 </head>
 <body>
@@ -55,17 +55,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner-info">
 		  <div class="container">
 			  <div class="logo">
-					 <h1><a href="index.jsp">GAME BOX</a></h1>
+					 <h1><a href="index">GAME BOX</a></h1>
 			  </div>
 			 <div class="top-menu">
 				 <span class="menu"></span>
 				  <ul class="nav1">
-						 <li><a href="index.jsp">Home</a></li>
-						 <li><a href="about.jsp">About</a></li>
-						 <li class="active"><a href="reviews.jsp">Reviews</a></li>
-						 <li><a href="typo.jsp">News</a></li>
-						 <li><a href="gallery.jsp">Gallery</a></li>
-						 <li><a href="contact.jsp">Mail</a></li>
+						 <li><a href="index">Home</a></li>
+						 <li><a href="about">About</a></li>
+						 <li class="active"><a href="reviews">Reviews</a></li>
+						 <li><a href="typo">News</a></li>
+						 <li><a href="gallery">Gallery</a></li>
+						 <li><a href="contact">Mail</a></li>
 				  </ul>
 			 </div>	
 	<!-- script-for-menu -->
@@ -93,21 +93,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 <div class="review-md1">
 				 <div class="col-md-4 sed-md">
 				 	 <div class=" col-1">
-						 <a href="single.jsp"><img class="img-responsive" src="images/re7.jpg" alt=""></a>
+						 <a href="single"><img class="img-responsive" src="../static/images/re7.jpg" alt=""></a>
+					 	<h4><a href="single">Sed ut perspiciatis unde omnis</a></h4>
+						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+					 </div>
+				 </div>
+				  <div class="col-md-4 sed-md">
+				 	 <div class=" col-1">
+						 <a href="single"><img class="img-responsive" src="../static/images/re1.jpg" alt=""></a>
+					 	<h4><a href="single">Sed ut perspiciatis unde omnis</a></h4>
+						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+					 </div>
+				 </div>
+				  <div class="col-md-4 sed-md">
+				 	 <div class=" col-1">
+						 <a href="single"><img class="img-responsive" src="../static/images/re2.jpg" alt=""></a>
+					 	<h4><a href="single">Sed ut perspiciatis unde omnis</a></h4>
+						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+					 </div>
+				 </div>
+				 <div class="clearfix"> </div>
+		 </div>
+		 <div class="review-md1">
+				 <div class="col-md-4 sed-md">
+				 	 <div class=" col-1">
+						 <a href="single"><img class="img-responsive" src="../static/images/re3.jpg" alt=""></a>
+					 	<h4><a href="single">Sed ut perspiciatis unde omnis</a></h4>
+						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+					 </div>
+				 </div>
+				  <div class="col-md-4 sed-md">
+				 	 <div class=" col-1">
+						 <a href="single.jsp"><img class="img-responsive" src="../static/images/re4.jpg" alt=""></a>
 					 	<h4><a href="single.jsp">Sed ut perspiciatis unde omnis</a></h4>
 						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
 					 </div>
 				 </div>
 				  <div class="col-md-4 sed-md">
 				 	 <div class=" col-1">
-						 <a href="single.jsp"><img class="img-responsive" src="images/re1.jpg" alt=""></a>
-					 	<h4><a href="single.jsp">Sed ut perspiciatis unde omnis</a></h4>
-						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-					 </div>
-				 </div>
-				  <div class="col-md-4 sed-md">
-				 	 <div class=" col-1">
-						 <a href="single.jsp"><img class="img-responsive" src="images/re2.jpg" alt=""></a>
+						 <a href="single.jsp"><img class="img-responsive" src="../static/images/re5.jpg" alt=""></a>
 					 	<h4><a href="single.jsp">Sed ut perspiciatis unde omnis</a></h4>
 						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
 					 </div>
@@ -117,45 +141,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 <div class="review-md1">
 				 <div class="col-md-4 sed-md">
 				 	 <div class=" col-1">
-						 <a href="single.jsp"><img class="img-responsive" src="images/re3.jpg" alt=""></a>
+						 <a href="single.jsp"><img class="img-responsive" src="../static/images/re6.jpg" alt=""></a>
 					 	<h4><a href="single.jsp">Sed ut perspiciatis unde omnis</a></h4>
 						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
 					 </div>
 				 </div>
 				  <div class="col-md-4 sed-md">
 				 	 <div class=" col-1">
-						 <a href="single.jsp"><img class="img-responsive" src="images/re4.jpg" alt=""></a>
+						 <a href="single.jsp"><img class="img-responsive" src="../static/images/re7.jpg" alt=""></a>
 					 	<h4><a href="single.jsp">Sed ut perspiciatis unde omnis</a></h4>
 						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
 					 </div>
 				 </div>
 				  <div class="col-md-4 sed-md">
 				 	 <div class=" col-1">
-						 <a href="single.jsp"><img class="img-responsive" src="images/re5.jpg" alt=""></a>
-					 	<h4><a href="single.jsp">Sed ut perspiciatis unde omnis</a></h4>
-						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-					 </div>
-				 </div>
-				 <div class="clearfix"> </div>
-		 </div>
-		 <div class="review-md1">
-				 <div class="col-md-4 sed-md">
-				 	 <div class=" col-1">
-						 <a href="single.jsp"><img class="img-responsive" src="images/re6.jpg" alt=""></a>
-					 	<h4><a href="single.jsp">Sed ut perspiciatis unde omnis</a></h4>
-						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-					 </div>
-				 </div>
-				  <div class="col-md-4 sed-md">
-				 	 <div class=" col-1">
-						 <a href="single.jsp"><img class="img-responsive" src="images/re7.jpg" alt=""></a>
-					 	<h4><a href="single.jsp">Sed ut perspiciatis unde omnis</a></h4>
-						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-					 </div>
-				 </div>
-				  <div class="col-md-4 sed-md">
-				 	 <div class=" col-1">
-						 <a href="single.jsp"><img class="img-responsive" src="images/re2.jpg" alt=""></a>
+						 <a href="single.jsp"><img class="img-responsive" src="../static/images/re2.jpg" alt=""></a>
 					 	<h4><a href="single.jsp">Sed ut perspiciatis unde omnis</a></h4>
 						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
 					 </div>

@@ -2,12 +2,12 @@
 <html>
 <head>
 <title>Gallery</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../static/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary JavaScript plugins) -->
-<script src="js/bootstrap.js"></script>
+<script src="../static/js/bootstrap.js"></script>
 <!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<link rel="stylesheet" href="css/lightbox.css">
+<link href="../static/css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="../static/css/lightbox.css">
 
 <!-- Custom Theme files -->
 <!--//theme-style-->
@@ -17,7 +17,7 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
-<script src="js/jquery.min.js"></script>
+<script src="../static/js/jquery.min.js"></script>
 
 </head>
 <body>
@@ -57,17 +57,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner-info">
 		  <div class="container">
 			  <div class="logo">
-					 <h1><a href="index.jsp">GAME BOX</a></h1>
+					 <h1><a href="index">GAME BOX</a></h1>
 			  </div>
 			 <div class="top-menu">
 				 <span class="menu"></span>
 				  <ul class="nav1">
-						 <li><a href="index.jsp">Home</a></li>
-						 <li><a href="about.jsp">About</a></li>
-						 <li><a href="reviews.jsp">Reviews</a></li>
-						 <li><a href="typo.jsp">News</a></li>
-						 <li class="active"><a href="gallery.jsp">Gallery</a></li>
-						 <li><a href="contact.jsp">Mail</a></li>
+						 <li><a href="index">Home</a></li>
+						 <li><a href="about">About</a></li>
+						 <li><a href="reviews">Reviews</a></li>
+						 <li><a href="typo">News</a></li>
+						 <li class="active"><a href="gallery">Gallery</a></li>
+						 <li><a href="contact">Mail</a></li>
 				  </ul>
 			 </div>	
 	<!-- script-for-menu -->
@@ -95,46 +95,46 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="gallery-bottom">
 				<div class="gallery-1">
 					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/r4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/r4.jpg" alt=""/></a>
+						<a class="example-image-link" href="../static/images/r4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/r4.jpg" alt=""/></a>
 					</div>
 					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/gl7.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl7.jpg" alt=""/></a>
+						<a class="example-image-link" href="../static/images/gl7.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl7.jpg" alt=""/></a>
 					</div>
 					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/gl4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl4.jpg" alt=""/></a>
+						<a class="example-image-link" href="../static/images/gl4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl4.jpg" alt=""/></a>
 					</div>
 					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/gl5.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl5.jpg" alt=""/></a>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="gallery-1">
-					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/gl6.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl6.jpg" alt=""/></a>
-					</div>
-					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/gl2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl2.jpg" alt=""/></a>
-					</div>
-					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/r6.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/r6.jpg" alt=""/></a>
-					</div>
-					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/gl7.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl7.jpg" alt=""/></a>
+						<a class="example-image-link" href="../static/images/gl5.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl5.jpg" alt=""/></a>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 				<div class="gallery-1">
 					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/gl4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl4.jpg" alt=""/></a>
+						<a class="example-image-link" href="../static/images/gl6.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl6.jpg" alt=""/></a>
 					</div>
 					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/r3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/r3.jpg" alt=""/></a>
+						<a class="example-image-link" href="../static/images/gl2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl2.jpg" alt=""/></a>
 					</div>
 					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/r4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/r4.jpg" alt=""/></a>
+						<a class="example-image-link" href="../static/images/r6.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/r6.jpg" alt=""/></a>
 					</div>
 					<div class="col-md-3 gallery-grid">
-						<a class="example-image-link" href="images/gl11.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl11.jpg" alt=""/></a>
+						<a class="example-image-link" href="../static/images/gl7.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl7.jpg" alt=""/></a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="gallery-1">
+					<div class="col-md-3 gallery-grid">
+						<a class="example-image-link" href="../static/images/gl4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl4.jpg" alt=""/></a>
+					</div>
+					<div class="col-md-3 gallery-grid">
+						<a class="example-image-link" href="../static/images/r3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/r3.jpg" alt=""/></a>
+					</div>
+					<div class="col-md-3 gallery-grid">
+						<a class="example-image-link" href="../static/images/r4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/r4.jpg" alt=""/></a>
+					</div>
+					<div class="col-md-3 gallery-grid">
+						<a class="example-image-link" href="../static/images/gl11.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/gl11.jpg" alt=""/></a>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -142,7 +142,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 </div>
 	 </div>
 </div>	
-<script src="js/lightbox-plus-jquery.min.js"></script>
+<script src="../static/js/lightbox-plus-jquery.min.js"></script>
 <!-- footer -->
 <div class="footer">
 	 <div class="container">

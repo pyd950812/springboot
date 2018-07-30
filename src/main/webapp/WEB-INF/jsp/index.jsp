@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>kk Resource Website</title>
+    <title>This is a Resource Website</title>
     <link href="../static/css/bootstrap.css" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary JavaScript plugins) -->
     <script src="../static/js/bootstrap.js"></script>
@@ -31,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="header">
         <div class="container">
             <div class="headr-left">
-                <h7 align="center">Welcome to kk resource website</h7>
+                <h7 align="center">Welcome To Resource Website</h7>
                 <div class="search">
                     <form>
                         <input type="submit" value="">
@@ -55,7 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="banner-info">
         <div class="container">
             <div class="logo">
-                <h1><a href="index.html">Game</a></h1>
+                <h1><a href="index">Game</a></h1>
             </div>
             <div class="top-menu">
                 <span class="menu"></span>

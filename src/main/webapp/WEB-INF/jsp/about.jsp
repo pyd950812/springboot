@@ -2,11 +2,11 @@
 <html>
 <head>
 <title>About</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../static/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary JavaScript plugins) -->
-<script src="js/bootstrap.js"></script>
+<script src="../static/js/bootstrap.js"></script>
 <!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="../static/css/style.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
-<script src="js/jquery.min.js"></script>
+<script src="../static/js/jquery.min.js"></script>
 
 </head>
 <body>
@@ -55,17 +55,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 <div class="banner-info">
 		  <div class="container">
 			  <div class="logo">
-					 <h1><a href="index.jsp">GAME BOX</a></h1>
+					 <h1><a href="index">GAME BOX</a></h1>
 			  </div>
 			 <div class="top-menu">
 				 <span class="menu"></span>
 					<ul class="nav1">
-						 <li><a href="index.jsp">Home</a></li>
-						 <li class="active"><a href="about.jsp">About</a></li>
-						 <li><a href="reviews.jsp">Reviews</a></li>
-						 <li><a href="typo.jsp">News</a></li>
-						 <li><a href="gallery.jsp">Gallery</a></li>
-						 <li><a href="contact.jsp">Mail</a></li>
+						 <li><a href="index">Home</a></li>
+						 <li class="active"><a href="about">About</a></li>
+						 <li><a href="reviews">Reviews</a></li>
+						 <li><a href="typo">News</a></li>
+						 <li><a href="gallery">Gallery</a></li>
+						 <li><a href="contact">Mail</a></li>
 				  </ul>
 			 </div>	
 	 <!-- script-for-menu -->
@@ -92,7 +92,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 <h2>About</h2>
 		 <div class="about-info-grids">
 			 <div class="col-md-5 abt-pic">
-				 <img src="images/abt.jpg" class="img-responsive" alt=""/>
+				 <img src="../static/images/abt.jpg" class="img-responsive" alt=""/>
 			 </div>
 			 <div class="col-md-7 abt-info-pic">
 				 <h3>Vestibulum congue neque quis ex fringilla, in pellentesque massa gravida.</h3>
@@ -139,28 +139,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  <h3>Our Team</h3>	  
 			  <div class="grid_4">
 				<div class="team-grid">
-						   <img src="images/a1.jpg" alt="">
+						   <img src="../static/images/a1.jpg" alt="">
 						   <h4>Phasellus scipitilifen lus.</h4>
 						  <p>Kuspendisse laoreet augue iderti wer  interdum merti oremolo lectusto odio, sedorolu fringilla estero libero. </p>
 					  </div>
 			  </div>
 			  <div class="grid_4">
 				 <div class="team-grid">
-						   <img src="images/a2.jpg" alt="">
+						   <img src="../static/images/a2.jpg" alt="">
 						   <h4>Phasellus scipitilifen lus.</h4>
 						  <p>Kuspendisse laoreet augue iderti wer  interdum merti oremolo lectusto odio, sedorolu fringilla estero libero. </p>
 					  </div>
 			  </div>
 			  <div class="grid_4 span66">
 				<div class="team-grid">
-						   <img src="images/a3.jpg" alt="">
+						   <img src="../static/images/a3.jpg" alt="">
 						   <h4>Phasellus scipitilifen lus.</h4>
 						  <p>Kuspendisse laoreet augue iderti wer  interdum merti oremolo lectusto odio, sedorolu fringilla estero libero. </p>
 					  </div>
 			  </div>      
 			  <div class="grid_4">				 
 					  <div class="team-grid">
-						   <img src="images/a4.jpg" alt="">
+						   <img src="../static/images/a4.jpg" alt="">
 						   <h4>Phasellus scipitilifen lus.</h4>
 						  <p>Kuspendisse laoreet augue iderti wer  interdum merti oremolo lectusto odio, sedorolu fringilla estero libero. </p>
 					  </div>					  
