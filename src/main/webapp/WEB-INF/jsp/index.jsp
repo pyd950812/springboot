@@ -31,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="header">
         <div class="container">
             <div class="headr-left">
-                <h7 align="center">Welcome To Resource Website</h7>
+                <h7 align="center"> Welcome To KKResource Website</h7>
                 <div class="search">
                     <form>
                         <input type="submit" value="">
@@ -40,14 +40,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="clearfix"></div>
             </div>
-            <div class="headr-right">
+      <%--      <div class="headr-right">
                 <div class="details">
                     <ul>
                         <li><a href="kunkunlq6666@163.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>info(at)kunkunlq6666@163.com</a></li>
                         <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>(+086)136 9654 9521</li>
                     </ul>
                 </div>
-            </div>
+            </div>--%>
             <div class="clearfix"></div>
         </div>
     </div>
@@ -244,29 +244,79 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
     </div>
 </div>
-<!-- poster -->
+
+
+<%--大型游戏部分--%>
+<div class="latest">
+    <div class="container">
+        <div class="latest-games">
+            <h3>大型游戏</h3>
+            <span></span>
+        </div>
+        <div class="latest-top">
+            <div class="col-md-5 trailer-text">
+                <div class="sub-trailer">
+                    <div class="col-md-4 sub-img">
+                        <img src="../static/images/v2.jpg" alt="img07"/>
+                    </div>
+                    <div class="col-md-8 sub-text">
+                        <a href="#">Killzone: Shadow Fall for PlayStation 4 Reviews</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi…</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="sub-trailer">
+                    <div class="col-md-4 sub-img">
+                        <img src="../static/images/v1.jpg" alt="img07"/>
+                    </div>
+                    <div class="col-md-8 sub-text">
+                        <a href="#"> Spiderman 2 Full Version PC Game</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi…</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="sub-trailer">
+                    <div class="col-md-4 sub-img">
+                        <img src="../static/images/v3.jpg" alt="img07"/>
+                    </div>
+                    <div class="col-md-8 sub-text">
+                        <a href="#">Sega's: Jet Set for Andriod Play Store 4 Reviews</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi…</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+            <div class="col-md-7 trailer">
+                <iframe src="https://www.youtube.com/embed/V5-DyoVlNOg?list=PLiVunv1pnIs2c0ORVqY60K3n8XMO9CoGp" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+
+<%--每日推荐部分--%>
 <div class="poster">
     <div class="container">
         <div class="poster-info">
-            <h3>Nunc cursus dui in metus efficitur, sit amet ullamcorper dolor viverra.</h3>
-            <p>Proin ornare metus eros, quis mattis lorem venenatis eget. Curabitur eget dui euismod,
-                varius nisl eu, pharetra lacus. Sed vehicula tempor leo. Aenean dictum suscipit magna vel
-                tempus. Aliquam nec dui dolor. Quisque scelerisque aliquet est et dignissim. Morbi magna quam, molestie sed fermentum et, elementum at dolor</p>
+            <h4 style="color: saddlebrown">每日推荐</h4>
+            <h3>游戏名.</h3>
+            <p>游戏详情</p>
             <a class="hvr-bounce-to-bottom" href="reviews.html">Read More</a>
         </div>
     </div>
 </div>
+<!-- poster -->
+
 <!-- x-box -->
 <div class="x-box">
     <div class="container">
         <div class="x-box_sec">
             <div class="col-md-7 x-box-left">
                 <h2>Games</h2>
-                <h3>Suspendisse ornare nisl et tellus convallis, non vehicula nibh convallis.</h3>
-                <p>Proin ornare metus eros, quis mattis lorem venenatis eget. Curabitur eget dui
-                    euismod, varius nisl eu, pharetra lacus. Sed vehicula tempor leo. Aenean dictum suscipit magna vel tempus.
-                    Aliquam nec dui dolor. Quisque scelerisque aliquet est et dignissim.</p>
-                <a class="hvr-bounce-to-top" href="reviews.html">More games</a>
+                <h3>电脑配置推荐</h3>
+                <p>由于很多游戏对电脑配置要求很高 这里推荐电脑配置.内存16G 显卡6G以上 磁盘内存尽量大点（游戏本身容量很大）I7cpu处理器.一般的大型软件运行没问题 游戏安装时有安装说明的话 尽量按照说明安装 有的
+                游戏缺少安装环境请联系我们或者自行百度 本网站提供资源链接地址 不提供下载.</p>
+                <a class="hvr-bounce-to-top" href="reviews.html">更多 游戏</a>
             </div>
             <div class="col-md-5 x-box-right">
                 <img src="../static/images/xbox.jpg" class="img-responsive" alt=""/>
@@ -275,42 +325,43 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
     </div>
 </div>
+
 <!-- footer -->
 <div class="footer">
     <div class="container">
         <div class="footer-grids">
             <div class="col-md-3 ftr-info">
-                <h3>About Us</h3>
-                <p>Sed faucibus mollis laoreet. Sed vehicula faucibus tristique lectus a orci molestie finibus.
-                    Suspendisse pharetra, metus sed rutrum pretium.</p>
+                <h3>关于我们</h3>
+                <p>本网站不提供任何下载 只是提供相关资源链接 如果有想要的资源 请联系我们.</p>
             </div>
             <div class="col-md-3 ftr-grid">
                 <h3>电影</h3>
                 <ul class="ftr-list">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#">动作</a></li>
+                    <li><a href="#">爱情</a></li>
+                    <li><a href="#">科幻</a></li>
+                    <li><a href="#">惊悚</a></li>
+                    <li><a href="#">其他</a></li>
                 </ul>
             </div>
             <div class="col-md-3 ftr-grid">
                 <h3>游戏</h3>
                 <ul class="ftr-list">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#">动作</a></li>
+                    <li><a href="#">3 D</a></li>
+                    <li><a href="#">射击</a></li>
+                    <li><a href="#">探险</a></li>
+                    <li><a href="#">生存</a></li>
                 </ul>
             </div>
             <div class="col-md-3 ftr-grid">
                 <h3>软件</h3>
                 <ul class="ftr-list">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#">开发</a></li>
+                    <li><a href="#">作图</a></li>
+                    <li><a href="#">VFX视觉</a></li>
+                    <li><a href="#">视频编辑</a></li>
+                    <li><a href="#">其他</a></li>
                 </ul>
             </div>
             <div class="clearfix"></div>
@@ -320,7 +371,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!---->
 <div class="copywrite">
     <div class="container">
-        <p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="kk资源">kk资源</a> - Collect from <a href="http://www.cssmoban.com/" title="kk资源" target="_blank">kk资源</a></p>
+        <p>Copyright &copy; 2015.Company name All rights reserved.More Resources kk资源 - Collect from  kk资源</p>
     </div>
 </div>
 <!---->
