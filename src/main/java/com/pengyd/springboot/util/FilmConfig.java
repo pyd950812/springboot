@@ -11,7 +11,6 @@ public enum  FilmConfig {
     OTHER_TYPE(5,"惊悚"),;
 
 
-
     private int value;
     private String desc;
 

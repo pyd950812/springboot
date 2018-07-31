@@ -18,6 +18,8 @@ public class Films {
     private int movieSize;
     //百度云链接地址
     private String bdLinkUrl;
+    //百度云链接提取码
+    private String bdCode;
     //状态1:可试 0:不可视
     private String movieStatus;
     //其他链接地址

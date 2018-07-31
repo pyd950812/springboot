@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.pengyd.springboot.dao.GamesDao">
+
+<!--auto generated Code-->
+    <resultMap id="AllColumnMap" type="com.pengyd.springboot.entity.Games">
+        <result column="id" property="id"/>
+        <result column="game_name" property="gameName"/>
+        <result column="game_type" property="gameType"/>
+        <result column="img_url" property="imgUrl"/>
+        <result column="game_information" property="gameInformation"/>
+        <result column="game_size" property="gameSize"/>
+        <result column="bd_link_url" property="bdLinkUrl"/>
+        <result column="bd_code" property="bdCode"/>
+        <result column="game_status" property="gameStatus"/>
+        <result column="other_url" property="otherUrl"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="check_count" property="checkCount"/>
+        <result column="pic_name" property="picName"/>
+    </resultMap>
+
+<!--auto generated Code-->
+    <sql id="all_column">
+        id,
+        game_name,
+        game_type,
+        img_url,
+        game_information,
+        game_size,
+        bd_link_url,
+        bd_code,
+        game_status,
+        other_url,
+        create_time,
+        update_time,
+        check_count,
+        pic_name
+    </sql>
+
+<!--auto generated Code-->
+    <insert id="insert">
+        INSERT INTO games
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.id != null"> id, </if>
+            <if test="pojo.gameName != null"> game_name, </if>
+            <if test="pojo.gameType != null"> game_type, </if>
+            <if test="pojo.imgUrl != null"> img_url, </if>
+            <if test="pojo.gameInformation != null"> game_information, </if>
+            <if test="pojo.gameSize != null"> game_size, </if>
+            <if test="pojo.bdLinkUrl != null"> bd_link_url, </if>
+            <if test="pojo.bdCode != null"> bd_code, </if>
+            <if test="pojo.gameStatus != null"> game_status, </if>
+            <if test="pojo.otherUrl != null"> other_url, </if>
+            <if test="pojo.createTime != null"> create_time, </if>
+            <if test="pojo.updateTime != null"> update_time, </if>
+            <if test="pojo.checkCount != null"> check_count, </if>
+            <if test="pojo.picName != null"> pic_name, </if>
+        </trim>
+        VALUES
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.id != null"> #{pojo.id}, </if>
+            <if test="pojo.gameName != null"> #{pojo.gameName}, </if>
+            <if test="pojo.gameType != null"> #{pojo.gameType}, </if>
+            <if test="pojo.imgUrl != null"> #{pojo.imgUrl}, </if>
+            <if test="pojo.gameInformation != null"> #{pojo.gameInformation}, </if>
+            <if test="pojo.gameSize != null"> #{pojo.gameSize}, </if>
+            <if test="pojo.bdLinkUrl != null"> #{pojo.bdLinkUrl}, </if>
+            <if test="pojo.bdCode != null"> #{pojo.bdCode}, </if>
+            <if test="pojo.gameStatus != null"> #{pojo.gameStatus}, </if>
+            <if test="pojo.otherUrl != null"> #{pojo.otherUrl}, </if>
+            <if test="pojo.createTime != null"> #{pojo.createTime}, </if>
+            <if test="pojo.updateTime != null"> #{pojo.updateTime}, </if>
+            <if test="pojo.checkCount != null"> #{pojo.checkCount}, </if>
+            <if test="pojo.picName != null"> #{pojo.picName}, </if>
+        </trim>
+    </insert>
+
+<!--auto generated Code-->
+    <insert id="insertList">
+        INSERT INTO games(
+        <include refid="all_column"/>
+        )VALUES
+        <foreach collection="pojos" item="pojo" index="index" separator=",">
+            (
+            #{pojo.id},
+            #{pojo.gameName},
+            #{pojo.gameType},
+            #{pojo.imgUrl},
+            #{pojo.gameInformation},
+            #{pojo.gameSize},
+            #{pojo.bdLinkUrl},
+            #{pojo.bdCode},
+            #{pojo.gameStatus},
+            #{pojo.otherUrl},
+            #{pojo.createTime},
+            #{pojo.updateTime},
+            #{pojo.checkCount},
+            #{pojo.picName}
+            )
+        </foreach>
+    </insert>
+
+<!--auto generated Code-->
+    <update id="update">
+        UPDATE games
+        <set>
+            <if test="pojo.id != null"> id = #{pojo.id}, </if>
+            <if test="pojo.gameName != null"> game_name = #{pojo.gameName}, </if>
+            <if test="pojo.gameType != null"> game_type = #{pojo.gameType}, </if>
+            <if test="pojo.imgUrl != null"> img_url = #{pojo.imgUrl}, </if>
+            <if test="pojo.gameInformation != null"> game_information = #{pojo.gameInformation}, </if>
+            <if test="pojo.gameSize != null"> game_size = #{pojo.gameSize}, </if>
+            <if test="pojo.bdLinkUrl != null"> bd_link_url = #{pojo.bdLinkUrl}, </if>
+            <if test="pojo.bdCode != null"> bd_code = #{pojo.bdCode}, </if>
+            <if test="pojo.gameStatus != null"> game_status = #{pojo.gameStatus}, </if>
+            <if test="pojo.otherUrl != null"> other_url = #{pojo.otherUrl}, </if>
+            <if test="pojo.createTime != null"> create_time = #{pojo.createTime}, </if>
+            <if test="pojo.checkCount != null"> check_count = #{pojo.checkCount}, </if>
+            <if test="pojo.picName != null"> pic_name = #{pojo.picName}, </if>
+        </set>
+         WHERE id = #{pojo.id}
+    </update>
+
+<!--auto generated Code-->
+    <select id="select" resultMap="AllColumnMap">
+        SELECT <include refid="all_column"/>
+        FROM games
+        <where>
+            <if test="pojo.id != null"> AND id = #{pojo.id} </if>
+            <if test="pojo.gameName != null"> AND game_name = #{pojo.gameName} </if>
+            <if test="pojo.gameType != null"> AND game_type = #{pojo.gameType} </if>
+            <if test="pojo.imgUrl != null"> AND img_url = #{pojo.imgUrl} </if>
+            <if test="pojo.gameInformation != null"> AND game_information = #{pojo.gameInformation} </if>
+            <if test="pojo.gameSize != null"> AND game_size = #{pojo.gameSize} </if>
+            <if test="pojo.bdLinkUrl != null"> AND bd_link_url = #{pojo.bdLinkUrl} </if>
+            <if test="pojo.bdCode != null"> AND bd_code = #{pojo.bdCode} </if>
+            <if test="pojo.gameStatus != null"> AND game_status = #{pojo.gameStatus} </if>
+            <if test="pojo.otherUrl != null"> AND other_url = #{pojo.otherUrl} </if>
+            <if test="pojo.createTime != null"> AND create_time = #{pojo.createTime} </if>
+            <if test="pojo.updateTime != null"> AND update_time = #{pojo.updateTime} </if>
+            <if test="pojo.checkCount != null"> AND check_count = #{pojo.checkCount} </if>
+            <if test="pojo.picName != null"> AND pic_name = #{pojo.picName} </if>
+        </where>
+        LIMIT 1000 
+    </select>
+
+<!--auto generated Code-->
+    <delete id="delete">
+        DELETE FROM games where id = #{pojo.id}
+    </delete>
+
+
+    <select id="queryLastGames" resultMap="AllColumnMap">
+        SELECT * from games ORDER BY create_time limit 3
+    </select>
+
+    <select id="queryMostHotGames" resultMap="AllColumnMap">
+        SELECT * from games ORDER BY check_count DESC limit 5
+    </select>
+
+    <select id="queryRecommendGames" resultMap="AllColumnMap">
+        SELECT * from games ORDER BY check_count DESC limit 1
+    </select>
+
+    <select id="queryLargeSizeGames" resultMap="AllColumnMap">
+        SELECT * from games where game_size > 5000 ORDER BY game_size DESC limit 3
+    </select>
+</mapper>

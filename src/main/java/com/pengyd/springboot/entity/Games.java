@@ -17,6 +17,8 @@ public class Games {
     private int gameSize;  //单位M
     //百度云链接地址
     private String bdLinkUrl;
+    //百度云密码
+    private String bdCode;
     //状态1:可试 0:不可视
     private String gameStatus;
     //其他链接地址
@@ -134,6 +136,14 @@ public class Games {
         this.otherUrl = otherUrl;
     }
 
+    public String getBdCode() {
+        return bdCode;
+    }
+
+    public void setBdCode(String bdCode) {
+        this.bdCode = bdCode;
+    }
+
     @Override
     public String toString() {
         return "Games{" +
@@ -144,8 +154,13 @@ public class Games {
                 ", gameInformation='" + gameInformation + '\'' +
                 ", gameSize=" + gameSize +
                 ", bdLinkUrl='" + bdLinkUrl + '\'' +
+                ", bdCode='" + bdCode + '\'' +
                 ", gameStatus='" + gameStatus + '\'' +
                 ", otherUrl='" + otherUrl + '\'' +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                ", checkCount=" + checkCount +
+                ", picName='" + picName + '\'' +
                 '}';
     }
 }
