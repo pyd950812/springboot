@@ -20,5 +20,5 @@ public interface StudentDao {
     @Insert("insert into t_student(name,password,phone) values(#{name},#{password},#{phone})")
     int insert(@Param("name") String name, @Param("password") String password, @Param("phone") String phone);
 
-    void ttt();
+//    void ttt();
 }
